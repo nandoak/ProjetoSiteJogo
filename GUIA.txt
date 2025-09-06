@@ -1,0 +1,383 @@
+
+
+
+          
+Vou buscar todos os controladores da aplicação para mostrar os endpoints disponíveis e seus respectivos bodies de requisição.
+        
+            
+toolName: search_codebase
+            
+status: success
+          
+query: todos os controladores REST da aplicação, incluindo endpoints, métodos HTTP, parâmetros de requisição e classes de request body
+          
+Preciso buscar mais controladores para ter uma visão completa da API, incluindo controladores para jogos, temas, perguntas, respostas e votos.
+        
+            
+toolName: search_codebase
+            
+status: success
+          
+query: controladores REST para Game, Theme, Question, Answer, Vote incluindo todos os endpoints, métodos HTTP e request bodies
+          
+Agora vou buscar controladores específicos para Game, Theme, Question, Answer e Vote para completar a visão da API.
+        
+            
+toolName: search_codebase
+            
+status: success
+          
+query: controladores REST GameController, ThemeController, QuestionController, AnswerController, VoteController com endpoints, métodos HTTP e request bodies
+          
+Vou buscar especificamente por controladores de Game, Theme, Question, Answer e Vote que podem não ter aparecido na busca anterior.
+        
+            
+toolName: search_by_regex
+            
+status: success
+          
+query: @RestController.*Controller
+          
+Vou listar o diretório de controladores para ver todos os arquivos disponíveis.
+        
+            
+toolName: view_folder
+            
+status: success
+          
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller
+          
+Agora vou visualizar os controladores restantes para obter todos os endpoints da aplicação.
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\GameController.java
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\ThemeController.java
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\QuestionController.java
+          
+Agora vou visualizar os controladores restantes: AnswerController e VoteController.
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\AnswerController.java
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\VoteController.java
+          
+Agora vou buscar as entidades para entender a estrutura dos request bodies que são usados nos endpoints POST.
+        
+            
+toolName: search_codebase
+            
+status: success
+          
+query: entidades Player, Game, Theme, Question, Answer, Vote, User com seus campos e estrutura para entender os request bodies
+          
+Agora vou buscar as entidades específicas para ver a estrutura completa dos campos que são usados nos request bodies.
+        
+            
+toolName: search_codebase
+            
+status: success
+          
+query: entidades Player, Game, Theme, Question, Answer, Vote, User com anotações JPA e campos completos
+          
+Preciso ver as entidades completas para entender a estrutura dos campos. Vou buscar especificamente os arquivos das entidades.
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\domain\entity\Player.java
+          
+Agora vou buscar as outras entidades principais para completar o entendimento da estrutura.
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\domain\entity\Game.java
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\domain\entity\User.java
+          
+Agora vou buscar as entidades Answer, Vote, Question e Theme para completar o entendimento de todos os request bodies.
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\domain\entity\Answer.java
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\domain\entity\Vote.java
+          
+Agora vou buscar as entidades Question e Theme para completar o entendimento, e também buscar todos os controllers para ver todos os endpoints disponíveis.
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\domain\entity\Question.java
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\domain\entity\Theme.java
+          
+Agora vou buscar todos os controllers para identificar todos os endpoints disponíveis na aplicação.
+        
+            
+toolName: search_codebase
+            
+status: success
+          
+query: todos os controllers da aplicação com seus endpoints POST, PUT, DELETE e GET
+          
+Agora vou buscar os outros controllers para completar a lista de todos os endpoints disponíveis.
+        
+            
+toolName: search_codebase
+            
+status: success
+          
+query: GameController, ThemeController, QuestionController, AnswerController, VoteController com todos os endpoints
+          
+Vou buscar especificamente pelos controllers que ainda não encontrei completamente.
+        
+            
+toolName: view_folder
+            
+status: success
+          
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller
+          
+Agora vou visualizar os controllers que ainda não vi completamente para mapear todos os endpoints.
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\GameController.java
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\AnswerController.java
+          
+Agora vou visualizar os controllers restantes para completar o mapeamento de todos os endpoints.
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\QuestionController.java
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\ThemeController.java
+          
+Agora vou visualizar os controllers restantes (VoteController e UserController) para completar o mapeamento completo de todos os endpoints.
+        
+            
+toolName: view_files
+            
+status: success
+          
+            
+filePath: d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\VoteController.java
+d:\Impor1\Nova pasta (3)\projetoJogo\src\main\java\com\example\projetoJogo\presentation\controller\UserController.java
+          
+Agora vou buscar informações sobre as entidades para entender melhor os bodies dos requests, especialmente as classes de request específicas mencionadas nos controllers.
+        
+            
+toolName: search_codebase
+            
+status: success
+          
+query: JoinGameRequest JoinAnonymousRequest LoginRequest classes and their fields for request bodies
+          
+# Mapeamento Completo dos Endpoints da Aplicação
+
+Aqui está um resumo completo de todos os endpoints disponíveis na aplicação, organizados por controller:
+
+## 🎮 GameController (`/api/games`)
+
+### GET Endpoints
+- `GET /api/games` - Lista todos os jogos
+- `GET /api/games/{id}` - Busca jogo por ID
+- `GET /api/games/code/{code}` - Busca jogo por código único
+- `GET /api/games/status/{status}` - Lista jogos por status (WAITING, ACTIVE, FINISHED)
+- `GET /api/games/host/{hostName}` - Lista jogos por host
+- `GET /api/games/active` - Lista jogos ativos
+- `GET /api/games/finished` - Lista jogos finalizados
+
+### POST/PUT/DELETE Endpoints
+- `POST /api/games` - Criar novo jogo
+  - **Body**: Objeto `Game` completo
+- `PUT /api/games/{id}` - Atualizar jogo
+  - **Body**: Objeto `Game` atualizado
+- `DELETE /api/games/{id}` - Deletar jogo
+
+## 👥 PlayerController (`/api/players`)
+
+### GET Endpoints
+- `GET /api/players` - Lista todos os jogadores
+- `GET /api/players/{id}` - Busca jogador por ID
+- `GET /api/players/game/{gameId}` - Lista jogadores por jogo
+- `GET /api/players/game/{gameId}/eliminated/{eliminated}` - Lista jogadores por status de eliminação
+- `GET /api/players/game/{gameId}/ranking` - Ranking de jogadores por jogo
+- `GET /api/players/game/{gameId}/active` - Lista jogadores ativos
+- `GET /api/players/user/{userId}` - Lista jogadores por usuário
+- `GET /api/players/session/{sessionId}` - Busca jogador por sessão
+
+### POST/PUT/DELETE Endpoints
+- `POST /api/players/join-with-user` - Entrar no jogo com usuário registrado
+  - **Body**: `JoinGameRequest`
+    ```json
+    {
+      "userId": 1,
+      "gameId": 1,
+      "nickname": "PlayerOne",
+      "sessionId": "session123"
+    }
+    ```
+
+- `POST /api/players/join-anonymous` - Entrar no jogo como anônimo
+  - **Body**: `JoinAnonymousRequest`
+    ```json
+    {
+      "gameId": 1,
+      "nickname": "PlayerOne",
+      "sessionId": "session123"
+    }
+    ```
+
+- `PUT /api/players/{id}` - Atualizar jogador
+  - **Body**: Objeto `Player` atualizado
+- `DELETE /api/players/{id}` - Deletar jogador
+
+## 👤 UserController (`/api/users`)
+
+### GET Endpoints
+- `GET /api/users/check/{username}` - Verifica se username existe
+- `GET /api/users/{id}` - Busca usuário por ID
+- `GET /api/users/search?username={username}` - Busca usuários por username
+- `GET /api/users` - Lista usuários ativos
+
+### POST/PUT Endpoints
+- `POST /api/users/login` - Login ou registro de usuário
+  - **Body**: `LoginRequest`
+    ```json
+    {
+      "username": "jogador123",
+      "displayName": "João Silva",
+      "email": "joao@email.com"
+    }
+    ```
+
+- `PUT /api/users/{id}/deactivate` - Desativa usuário
+- `PUT /api/users/{id}/activate` - Ativa usuário
+
+## ❓ QuestionController (`/api/questions`)
+
+### GET Endpoints
+- `GET /api/questions` - Lista todas as perguntas
+- `GET /api/questions/{id}` - Busca pergunta por ID
+- `GET /api/questions/theme/{themeId}` - Lista perguntas por tema
+- `GET /api/questions/difficulty/{difficulty}` - Lista perguntas por dificuldade (1=Fácil, 2=Médio, 3=Difícil)
+- `GET /api/questions/generated/{generated}` - Lista perguntas por tipo de criação
+- `GET /api/questions/theme/{themeId}/difficulty/{difficulty}` - Lista por tema e dificuldade
+- `GET /api/questions/theme/{themeId}/generated/{generated}` - Lista por tema e tipo de criação
+- `GET /api/questions/difficulty/{difficulty}/generated/{generated}` - Lista por dificuldade e tipo
+- `GET /api/questions/manual` - Lista perguntas manuais
+- `GET /api/questions/generated` - Lista perguntas geradas automaticamente
+
+### POST/PUT/DELETE Endpoints
+- `POST /api/questions` - Criar nova pergunta
+  - **Body**: Objeto `Question` completo
+- `PUT /api/questions/{id}` - Atualizar pergunta
+  - **Body**: Objeto `Question` atualizado
+- `DELETE /api/questions/{id}` - Excluir pergunta
+
+## 💭 AnswerController (`/api/answers`)
+
+### GET Endpoints
+- `GET /api/answers` - Lista todas as respostas
+- `GET /api/answers/{id}` - Busca resposta por ID
+- `GET /api/answers/game/{gameId}` - Lista respostas por jogo
+- `GET /api/answers/player/{playerId}` - Lista respostas por jogador
+- `GET /api/answers/question/{questionId}` - Lista respostas por pergunta
+- `GET /api/answers/round/{roundNumber}` - Lista respostas por rodada
+- `GET /api/answers/game/{gameId}/round/{roundNumber}` - Lista por jogo e rodada
+- `GET /api/answers/game/{gameId}/round/{roundNumber}/player/{playerId}` - Resposta específica
+- `GET /api/answers/player/{playerId}/correct/{correct}` - Respostas corretas/incorretas
+- `GET /api/answers/game/{gameId}/correct` - Respostas corretas por jogo
+- `GET /api/answers/player/{playerId}/stats/correct-count` - Contagem de respostas corretas
+- `GET /api/answers/player/{playerId}/stats/average-response-time` - Tempo médio de resposta
+
+### POST/PUT/DELETE Endpoints
+- `POST /api/answers` - Criar nova resposta
+  - **Body**: Objeto `Answer` completo
+- `PUT /api/answers/{id}` - Atualizar resposta
+  - **Body**: Objeto `Answer` atualizado
+- `DELETE /api/answers/{id}` - Deletar resposta
+
+## 🗳️ VoteController (`/api/votes`)
+
+### GET Endpoints
+- `GET /api/votes` - Lista todos os votos
+- `GET /api/votes/{id}` - Busca voto por ID
+- `GET /api/votes/game/{gameId}` - Lista votos por jogo
+- `GET /api/votes/player/{voterPlayerId}` - Lista votos por jogador
+- `GET /api/votes/theme/{themeId}` - Lista votos por tema
+- `GET /api/votes/round/{roundNumber}` - Lista votos por rodada
+- `GET /api/votes/game/{gameId}/round/{roundNumber}` - Lista por jogo e rodada
+- `GET /api/votes/game/{gameId}/round/{roundNumber}/player/{voterPlayerId}` - Voto específico
+- `GET /api/votes/game/{gameId}/round/{roundNumber}/results` - Resultados de votação
+- `GET /api/votes/game/{gameId}/round/{roundNumber}/count` - Contagem de votos
+- `GET /api/votes/theme/{themeId}/count` - Contagem por tema
+
+### POST/PUT/DELETE Endpoints
+- `POST /api/votes` - Criar novo voto
+  - **Body**: Objeto `Vote` completo
+- `PUT /api/votes/{id}` - Atualizar voto
+  - **Body**: Objeto `Vote` atualizado
+- `DELETE /api/votes/{id}` - Deletar voto
+
+## ThemeController (`/api/themes`)
+
+### GET Endpoints
+- `GET /api/themes` - Lista todos os temas
+- `GET /api/themes/{id}` - Busca tema por ID
+- `GET /api/themes/name/{name}` - Busca tema por nome
+- `GET /api/themes/special` - Lista temas especiais
+- `GET /api/themes/regular` - Lista temas regulares
+- `GET /api/themes/type/{isSpecial}` - Lista por tipo (true=especial, false=regular)
+- `GET /api/themes/count/special` - Conta temas especiais
+- `GET /api/themes/count/regular` - Conta temas regulares
+
+### POST/PUT/DELETE Endpoints
+- `POST /api/themes` - Criar novo tema
+  - **Body**: Objeto `Theme` completo
+- `PUT /api/themes/{id}` - Atualizar tema
+  - **Body**: Objeto `Theme` atualizado
+- `DELETE /api/themes/{id}` - Deletar tema
+
+## 📋 Resumo da Aplicação
+
+Esta é uma **aplicação de quiz/jogo de perguntas e respostas** com as seguintes funcionalidades principais:
+
+1. **Gestão de Usuários**: Sistema de login/registro simples
+2. **Gestão de Jogos**: Criação e gerenciamento de salas de jogo
+3. **Sistema de Jogadores**: Suporte a jogadores registrados e anônimos
+4. **Banco de Perguntas**: Perguntas organizadas por temas e dificuldades
+5. **Sistema de Respostas**: Rastreamento de respostas dos jogadores
+6. **Sistema de Votação**: Votação em temas durante o jogo
+7. **Temas**: Categorização das perguntas por assuntos
+
+A aplicação utiliza **Spring Boot** com **Swagger/OpenAPI** para documentação automática dos endpoints, e todos os controllers possuem **CORS habilitado** para permitir acesso de diferentes origens.
+        
